@@ -1,13 +1,13 @@
 {
     "manifest_version": 3,
-    "name": "Looperman Downloader",
-    "description": "Looperman Downloader application",
+    "name": "Sahibinden Phone2Whatsapp",
+    "description": "Sahibinden Phone2Whatsapp application",
     "version": "0.0.1",
     "icons": {
         "512" : "logo/icon.png"
     },
     "action": {
-        "default_title": "Looperman Downloader"
+        "default_title": "Sahibinden Phone2Whatsapp"
     },
     "permissions": [],
     "host_permissions": [
@@ -21,6 +21,6 @@
             "lib/jquery.js",
             "foreground.js"
         ],
-        "matches": ["https://www.looperman.com/*"]
+        "matches": ["https://www.sahibinden.com/*"]
     }]
 }
