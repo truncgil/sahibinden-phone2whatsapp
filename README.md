@@ -1,8 +1,28 @@
 <div align="center">
-    <img src="https://raw.githubusercontent.com/truncgil/looperman-downloader/main/header-mid.png"/>
-    <h1>Looperman Mp3 Downloader (Chrome Extension)</h1>
-    <h3>Thanks to this Chrome extension, you can download files in mp3 format directly without logging in from looperman.com.</h3>
+    <img src="https://github.com/truncgil/sahibinden-phone2whatsapp/blob/main/logo/icon.png?raw=true"/>
+    <h1>Sahibinden Phone to Whatsapp (Chrome Extension)</h1>
+    <h3>This Chrome extension allows users to easily convert phone numbers listed on Sahibinden.com, a popular online marketplace in Turkey, into clickable WhatsApp links. By simply hovering over a phone number, users can initiate a conversation on WhatsApp without the hassle of manually copying and pasting the number.</h3>
 </div>
+
+
+## Features:
+
+- **Seamless Integration**: Seamlessly integrates with Sahibinden.com to enhance user experience without disrupting browsing flow.
+Instant Conversion: Instantly converts phone numbers into clickable WhatsApp links upon hovering over them, enabling quick and direct communication.
+- **Enhanced Accessibility**: Improves accessibility by eliminating the need for users to manually copy and paste phone numbers between platforms.
+- **User-Friendly Interface**: Provides a user-friendly interface with intuitive functionalities, making it easy for users to interact with the extension.
+
+# How to Use:
+
+## Installation
+- Install the extension from the Chrome Web Store.
+- Visit Sahibinden.com and navigate to a listing page with phone numbers.
+- Hover over a phone number to instantly convert it into a clickable WhatsApp link.
+- Click on the link to initiate a conversation on WhatsApp with the respective contact.
+
+
+## Contributions:
+Contributions and feedback are welcome! If you encounter any issues or have suggestions for improvement, please feel free to open an issue or submit a pull request on GitHub.
 
 You can use the extension directly by installing the package on Chrome.
 
