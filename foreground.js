@@ -17,11 +17,19 @@ function button(href,x,y) {
     +'</span></a>';
     return button;
 }
-var phone = $(".user-info-phones dd");
-var fullName = $(".user-info-agent h3").html();
+var phone = $(".user-info-phones dd, .pretty-phone-part span");
+var fullName = $(".user-info-agent h3").text();
+
 phone.each(function(){
     let bu = $(this);
-    let telefon = formatPhoneNumber(bu.html());
+   
+    var telefonData = bu.text();
+    if(telefonData == "") 
+    {
+       telefonData = bu.attr("data-content");
+       console.log(telefonData);
+    }
+    let telefon = formatPhoneNumber(telefonData);
     var currentUrl = window.location.href;
 
     console.log(telefon);
