@@ -36,5 +36,5 @@ phone.each(function(){
     console.log(fullName);
     let pos = bu.offset();
     console.log(pos);
-    bu.append(button("https://api.whatsapp.com/send/?phone=" + telefon + "&text=Sayın " + fullName + ", " + currentUrl +" ilanı için iletişime geçmekteyim&type=phone_number&app_absent=0", 12, 185));
+    bu.append(button("https://api.whatsapp.com/send/?phone=" + telefon + "&text=" + currentUrl + " ilanı için iletişime geçmekteyim&type=phone_number&app_absent=0", 12, 185));
 })
